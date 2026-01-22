@@ -1,0 +1,21 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node --watch ./back/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yasiel",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "env": "^0.0.2",
+    "express": "^5.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.14.1",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  }
+}

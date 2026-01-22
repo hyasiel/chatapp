@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <aside class="sidebar">
+        
+        <svg class="w-6 h-6 text-gray-800 dark:text-white open-modal" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7 7V5"/>
+        </svg>
+        
+    </aside>
+
+    <main class="app">
+        <header class="header">
+        </header>
+        <section class="chats"></section>
+        <section class="chat-on">
+            <svg class="back w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12l4-4m-4 4 4 4"/>
+            </svg>
+
+            <div class="chat_header header-chat-item">
+            </div>
+            <div class="msg_container">
+                <ul class="messages">
+                    <h1>Selecciona un chat o agrega un contacto para comenzar a chatear</h1>
+                </ul>
+            </div>
+            <form action="" class="form">
+                <input type="text" placeholder="Escribe un mensaje" class="input">
+                <button class="form_button">Send</button>
+            </form>
+        </section>
+        <footer class="footer"></footer>
+        
+    </main>
+    <dialog class="modal" id="miModal">
+        <div class="modal-content">
+            <form action="#" class="modal-form" method="dialog">
+                <span class="modal-span">Ingresa el id del usuario a agregar</span>
+                <input class="modal-input" type="text" placeholder="id del usuario" required>
+                <button class="modal-button">Agregar</button>
+            </form>
+        </div>
+    </dialog>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+<script src="contacts.js"></script>
+<script src="messages.js"></script>
+<script src="screendetect.js"></script>
+</body>
+</html>

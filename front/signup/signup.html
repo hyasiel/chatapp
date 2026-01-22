@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  .box{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    outline: 1px solid black;
+    gap: 16px;
+    height: 400px;
+  }
+
+  .form{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+</style>
+<body>
+
+<section class="form">
+  <form>
+    <div class="box">
+       <span>Username</span>
+       <input class="usr_name" type="text" placeholder="ingresa tu nombre" name="username">
+       <span>Password</span>
+       <input class="usr_pwd" type="password" placeholder="ingresa tu clave" name="password">
+       <button class="btn">Registrar</button>
+    </div>
+  </form>
+</section>
+  
+  
+  <script src="req.js"></script>
+</body>
+</html>

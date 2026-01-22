@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    font-family: sans-serif;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    gap: 10px;
+}
+
+ 
+h1{
+    font-size: 49px;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 460px;
+    height: 460px;
+
+}
+
+button{
+    height: 70px;
+    width: 200px;
+    border-radius: 14px;
+    background: #eeeeee55;
+    border: none;
+    transition: .2s all;
+    font-size: 33px;
+    color: rgb(0, 0, 0);
+
+}
+
+button:hover{
+    background: #222222bb;
+    cursor: pointer;
+    scale: 1.1;
+    color: white;
+    
+    
+}
+
+
+
+video{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    height: 110vh;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.capa{
+    position: absolute;
+    width: 100vw;
+    min-height: 100vh;
+    height: 110vh;
+    object-fit: cover;
+    background: #000;
+    background: linear-gradient(42deg, rgba(0, 0, 0, 1) 2%, rgba(156, 104, 104, 0) 100%);
+    z-index: 0;
+}
+
+@media (max-width:700px){
+    html, body{
+        overflow: hidden;
+    }
+
+    img{
+        width: 300px;
+        height: 300px;
+    }
+
+    button {
+        height: 60px;
+        width: 160px;
+    }
+
+    h1{
+        font-size: 26px;
+        color: white;
+    }
+
+    .container{
+        justify-content: space-around;
+    }
+
+
+}
