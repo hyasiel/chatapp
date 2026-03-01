@@ -42,10 +42,9 @@ SELECT * FROM chats;
 INSERT INTO users (uid, name, pass) VALUES ("estebanuid","esteban", "esteban1234");
 INSERT INTO users (uid, name, pass) VALUES ("pepeuid","pepe", "pepe1234");
 INSERT INTO users (uid, name, pass) VALUES ("anauid", "Ana", "ana123");
-<<<<<<< HEAD
-INSERT INTO users (uid, name, pass) VALUES ("luisauid", "Luisa", "luisa123");
-=======
->>>>>>> 48b0e7a (update)
+
+
+
 INSERT INTO users (uid, name, pass) VALUES ("carlosuid", "Carlos", "carlos1234");
 INSERT INTO users (uid, name, pass) VALUES ("esteluid", "Estel", "estel1234");
 INSERT INTO users (uid, name, pass) VALUES ("mariauid", "Maria", "maria1234");
