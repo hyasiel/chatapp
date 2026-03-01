@@ -1,4 +1,5 @@
 /node_modules
+<<<<<<< HEAD
 /front/node_modules
 /back/node_modules
 .env
@@ -6,3 +7,9 @@
 /back/.env
 /front/.env
 /config/.env
+=======
+
+/config
+
+package-lock.json
+>>>>>>> 48b0e7a (update)
